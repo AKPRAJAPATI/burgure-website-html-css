@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    /* background-color: #4E6E81; */
+   
+}
+.mainclr{
+    background-color: #243763;
+}
+body{
+    background-color: #243763;
+}
+.fullScreen{
+    background-color: #243763;
+    /* background-color: black; */
+
+}
+.nav{
+    height: 80px;
+}
+.links li{
+list-style: none;
+}
+.links li a{
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.links li a:hover{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px ;
+    border-radius: 10px;
+}
+.sign{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px ;
+    border-radius: 10px;
+}
+/* banner */
+.banner{
+    width: 100%;
+    height: 90vh;
+}
+.banner img{
+    width: 50%;
+    height: 50%;
+}
+.imgsize{
+    width: 50%;
+    height: 50%;
+}
+.left h1{
+    font-size: 3rem;
+}
+.left h3{
+    font-size: 2rem;
+}
+.left p{
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    box-shadow: 3px 6px 10px rgb(129, 132, 133);
+}
+.imageAbout{
+    margin-left: 35px;
+}
+.imageAbout h6{
+    font-size: 15px;
+}
+.imageAbout h1{
+    font-size: 2.5rem;
+}
+.imageAbout p{
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color: yellow;
+}
+.btnp{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.quality{
+    padding-top: 5%;
+}
+.cards{
+    margin: 20px;
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card img{
+    width: 80%;
+    height: 80%;
+}
+.row{
+    width: 100%;
+    height: 100%;
+}
+.card2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.card2 img{
+    width: 60%;
+    height: 60%;
+}
+
+.one{
+    font-size: 19px;
+    color: black;
+}
+.two{
+    font-size: 16px;
+    color: rgb(145, 143, 143);
+}
+.three{
+    color: rgb(161, 161, 11);
+    font-weight: 700;
+}
+.text h6{
+    color: yellow;
+    font-size: 15px;
+}
+.text-1{
+    color: white;
+    margin-top: 10px;
+}
+
+.text-2{
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.firstp{
+    font-size: 2rem;
+    color: black;
+    border-radius: 20px;
+}
+.btnn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.one1 ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+
+
+
+/* UTILITY CLASSES */
+
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.center{
+    align-items: center;
+}
+.centerT{
+    text-align: center;
+}
+.flexh{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.flexv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
